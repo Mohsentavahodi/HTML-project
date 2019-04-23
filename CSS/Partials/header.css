@@ -1,0 +1,31 @@
+header{
+    background-color: var(--primary-black);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+header div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+header divp{
+    margin: 0 10px;
+    font-size: 1.0rem;
+    }
+    header div p span{
+        color: var(--primary-green);
+    }
+    header a{
+        text-decoration: none;
+        margin: 0 4px;
+        color: var(--primary-gray);
+            }
+            header a:hover {
+                color: var(--defualt-blue);
+            }
+            .activeMenu{
+                color: var(--defualt-blue) !important;
+                cursor: default !important;
+            }

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import "header.css";
+
+
+:root {
+    --primary-green: lightgreen;
+    --secondary-green: #18a888;
+    --default-blue: #00bfff;
+    --secondary-blue: #00ccff;
+    --primary-blue: #2962ff;
+    --primary-yellow: gold;
+    --secondary-yellow: goldenrod;
+    --primary-red: tomato;
+    --secondary-red: crimson;
+    --primary-white: white;
+    --secondary-white: #fbfbfb;
+    --primary-grey: #eee;
+    --secondary-grey: #bbb;
+    --primary-black: #2d333a;
+    --secondary-black: #262b30;
+    --para-color: rgba(0,0,0,0.87);
+    --info-color: #777;
+    --default-radius: 2px;
+    --default-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "indie Flower";
+    margin: 0;
+}
